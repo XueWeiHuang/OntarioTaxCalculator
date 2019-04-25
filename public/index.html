@@ -1,0 +1,62 @@
+<head>
+	<!-- Compiled and minified CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">			
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">		
+</head>
+
+</head>
+<nav>
+		<div class="nav-wrapper">
+		  <a href="#" class="brand-logo center">Ontario and Federal Tax Schedule</a>
+		  <ul id="nav-mobile" class="left hide-on-med-and-down">	
+			</ul>
+		</div>
+	  </nav>
+
+
+<body class="container">
+	<div class="row">
+			<form id="taxForm" class="col s12">
+			  <div class="row">
+				<div class="input-field col s12">
+				  <input placeholder="Enter taxable income" id="taxableIncome" type="text" class="validate">
+				  <label for="taxableIncome">Taxable income</label>
+				</div>
+				<div class="input-field col s12">
+				  <input id="taxDeducted" type="text" placeholder="Enter tax deducted" class="validate">
+				  <label for="taxDeducted">Tax Deducted</label>
+				</div>
+			  </div>			  
+			  <button id="calculate" class="col s4 btn waves-effect waves-light" type="submit" name="action"> Calculate Tax Owing
+				  <i class="material-icons right">send</i>
+				</button>
+		</form>
+	  </div>
+
+	  <hr>
+<blockquote>
+	  <div class="row col s12">
+			<div class="col s12">Ontario Tax:</div>
+			<div id="ontax" class="col s6 push-s2"></div>
+		  </div>
+		  <div class="row col s12">
+				<div class="col s12">Federal Tax:</div>
+				<div id="fedtax" class="col s6 push-s2"></div>
+			</div>
+
+			<hr>
+			<div class="row col s12">
+					<div class="col s12">Total:</div>
+					<div id="totaltax" class="col s6 push-s2"></div>
+				  </div>
+			<div class="row col s12">
+				<div class="col s12">Owing:</div>
+				<div id="taxOwing"  class="col s6 push-s2"></div>
+			  </div>
+			</blockquote>
+
+	<!-- Compiled and minified JavaScript -->
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+	<script src="main.js"></script>
+</body>

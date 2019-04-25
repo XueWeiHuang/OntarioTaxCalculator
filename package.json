@@ -1,0 +1,29 @@
+{
+  "name": "prog8110finalpractice",
+  "version": "1.0.0",
+  "description": "test driven development for the final",
+  "main": "public/index.html",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel public/index.html --no-hmr --port $PORT"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhildred/PROG8110FinalPractice.git"
+  },
+  "keywords": [
+    "tdd",
+    "jest",
+    "katalon"
+  ],
+  "author": "Xuewei Huang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhildred/PROG8110FinalPractice/issues"
+  },
+  "homepage": "https://github.com/rhildred/PROG8110FinalPractice#readme",
+  "devDependencies": {
+    "jest": "^24.5.0",
+    "parcel": "^1.12.3"
+  }
+}
