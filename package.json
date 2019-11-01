@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rhildred/PROG8110FinalPractice.git"
+    "url": ""
   },
   "keywords": [
     "tdd",
@@ -19,9 +19,9 @@
   "author": "Xuewei Huang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rhildred/PROG8110FinalPractice/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/rhildred/PROG8110FinalPractice#readme",
+  "homepage": "",
   "devDependencies": {
     "jest": "^24.5.0",
     "parcel": "^1.12.3"
